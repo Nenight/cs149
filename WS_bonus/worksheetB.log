@@ -1,0 +1,16 @@
+  278  make qemu
+  279  open .
+  280  make qemu
+  281  cd user
+  282  ls
+  283  nano sleep.c
+  284  touch sleep.c
+  285  ls
+  286  cd ..
+  287  ls
+  288  nano Makefile
+  289  make qemu
+  290  nano sleep.c
+  291  nano user/sleep.c
+  292  make qemu
+  293  ./grade-lab-util sleep
