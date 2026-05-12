@@ -1,0 +1,16 @@
+  234  rm -rf cs149
+  235  ls
+  236  pwd
+  237  cd ~
+  238  cd Developer/
+  239  ls -latr; mkdir cs149; cd cs149
+  240  git init
+  241  git remote add origin git@github.com:Nenight/cs149.git
+  242  git config --global user.email "kirill.vladimirov@sjsu.edu"
+  243  git config --global user.name "Kirill Vladimirov"
+  244  mkdir WS_bonus
+  245  cd WS_bonus
+  246  git add .
+  247  wget -O out.pdf https://tinyurl.com/yy94jltt
+  248  wget -O out.pdf https://tinyurl.com/yy94jltt
+  249  ls -latr
